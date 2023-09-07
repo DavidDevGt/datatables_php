@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Virtual</title>
+    <!-- Integración de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Integración de DataTables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <!-- Tabla de libros -->
+    <table id="tablaLibros" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Género</th>
+                <th>Año de Publicación</th>
+                <th>Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Los datos se llenarán desde el archivo biblioteca.js -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Integración de jQuery, Bootstrap y DataTables -->
+<!-- Integración de jQuery completo (no slim) -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+<script src="biblioteca.js"></script>
+</body>
+</html>
